@@ -38,11 +38,7 @@ class SudokuGenerator :
     
     def generate_sudoku(self):
         self._generate_full_sudoku()
-<<<<<<< HEAD
         self._empty_cells(40)
-=======
-        self.empty_cells(40)
->>>>>>> 3842bd173eaaf63d9e476a9b81eb6e696383e79c
         return self.sudoku
 
 
