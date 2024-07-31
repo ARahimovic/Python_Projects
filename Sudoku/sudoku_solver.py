@@ -22,7 +22,7 @@ class SudokuSolver:
                 self.sudoku.set_value(row, column , val)
                 if self.solve():
                     return True
-            self.sudoku.set_value(row, column, 0)
+                self.sudoku.set_value(row, column, 0)
         return False
      
 
